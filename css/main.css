@@ -1,0 +1,658 @@
+@font-face {
+  font-family: "Otomanopee";
+  src: url("/fonts/otomanopee-one-webfont.woff");
+}
+
+p ,a, .innertext{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+h1 {
+  font-family: 'Otomanopee', Arial, sans-serif;
+  font-size: 4rem;
+}
+
+
+
+h1 span {
+  color: rgb(109 2 64);
+}
+
+.button{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding: 10px 30px 10px 30px; 
+  background-color: rgb(0 112 218);
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(0 112 218);
+  transition: 0.3s;
+  position: absolute;
+}
+
+.buttonwrapper{
+  position: relative;
+  justify-content: center;
+}
+
+.buttonwrapper > img {
+  max-width: 20px;
+  position: absolute;
+  margin-top: 10px;
+  opacity: 0%;
+  transition: .1s;
+
+}
+
+.buttonwrapper:hover > button{
+  padding-right: 60px;
+  opacity: 100%;
+}
+
+
+.buttonwrapper:hover > img{
+  opacity: 100%;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(238 238 238);
+}
+
+
+
+
+nav a {
+  display: inline-block;
+  font-family: 'Otomanopee', Arial, sans-serif;
+  font-size: 2.0rem;
+  margin-left: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s color;
+}
+
+nav a:hover{
+  color: rgb(109 2 64);
+  border-bottom: 3px solid rgb(109 2 64);
+  display: inline-block;
+  font-family: 'Otomanopee', Arial, sans-serif;
+  font-size: 2.0rem;
+  margin-left: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+
+nav .menu {
+  margin-top: auto;
+  margin-right: 180px;
+
+}
+
+
+.intro {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav img{
+  height: 140px;
+  margin-top: 20px;
+  margin-left:180px;
+  padding: 1rem;
+
+}
+
+
+.hero {
+  align-items:center;
+  flex-wrap: nowrap;
+  display: flex;
+  height: 700px;
+}
+
+.hero p {
+  display: block;
+  max-width: 70%;
+  padding-bottom: 10px;
+  font-size: 1rem;
+
+}
+
+.hero img {
+  max-height: 450px;
+  margin-left: 100px;
+}
+
+.hero aside{
+  width: 400px;
+  margin-left: auto;
+  margin-right: 140px;
+}
+
+.flag {
+  width: 30px;
+  margin-left: 20px;
+}
+
+.heading {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: underline;
+}
+
+.supportus {
+  background-color: rgb(221 221 221);
+  padding-top: 20px;
+}
+
+.supportus > h1 {
+  margin-left: 180px;
+}
+
+
+
+.supportus> wrapper > article{
+  max-width: 30%;
+  margin-top: 50px;
+  max-height: 450px;
+  padding-bottom: 40px;
+}
+
+
+.supportus > wrapper > article > img {
+  max-height: 150px;
+}
+
+.supportus > wrapper > article > .title{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.supportus > wrapper {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 180px;
+  margin-right: 180px;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.supportus > wrapper > article > .title a{
+font-size: 1.5rem;
+color: black;
+margin-left: 15px;
+}
+
+.supportus> wrapper > article > .img1{
+  background-color: green;
+  background-size: cover;
+  background-image: url('/images/group-of-people.jpg');
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+
+.supportus > wrapper > article > .img2{
+  background-color: blue;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('/images/meeting-photo.png');
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.supportus > wrapper > article > .img3{
+  background-color: orange;
+  background-repeat: no-repeat;
+  background-image: url('/images/event.jpg');
+  background-size: cover;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+
+.supportus > wrapper > article > p, a {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+
+.supportus > wrapper > article > .title a:hover{
+  color: grey;
+  }
+
+.supportus > wrapper > article > a:hover{
+  color: grey;
+}
+
+
+
+
+.outerprogress{
+  background-color: rgb(221 221 221);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 20px;
+  width: 90%;
+  position: relative;
+  height: 10px;
+}
+
+.innerprogress {
+  background-color: rgb(0 112 218);
+  position: absolute;
+  width: 60%;
+  height: 10px;
+}
+
+
+
+article{
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+footer div{
+  background-color: rgb(34 34 34);
+  height: 500px;
+}
+
+
+.logo-wrapper{
+display: flex;
+justify-content: center;
+}
+
+
+.logo-wrapper > img {
+height: 75%;
+width: 300px;
+margin-top: auto;
+margin-bottom: auto;  
+}
+
+.scroll-left {
+  height: 30px;	
+  width: 5%;
+  overflow: hidden;
+  transform: rotate(50deg);
+  background: rgb(183 3 105);
+  color: black;
+  position: absolute;
+  left: 45%;
+  top: 1750px;
+ }
+ .scroll-left p {
+width: 100%;
+  height: 100%;
+line-height: 30px;
+  text-align: center;
+  /* Starting position */
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);	
+  transform:translateX(100%);
+  /* Apply animation to this element */	
+  -moz-animation: scroll-left 5s linear infinite;
+  -webkit-animation: scroll-left 5s linear infinite;
+  animation: scroll-left 5s linear infinite;
+ }
+ /* Move it (define the animation) */
+ @-moz-keyframes scroll-left {
+  0%   { -moz-transform: translateX(100%); }
+  100% { -moz-transform: translateX(-100%); }
+ }
+ @-webkit-keyframes scroll-left {
+  0%   { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(-100%); }
+ }
+ @keyframes scroll-left {
+  0%   { 
+  -moz-transform: translateX(100%); /* Browser bug fix */
+  -webkit-transform: translateX(100%); /* Browser bug fix */
+  transform: translateX(100%); 		
+  }
+  100% { 
+  -moz-transform: translateX(-100%); /* Browser bug fix */
+  -webkit-transform: translateX(-100%); /* Browser bug fix */
+  transform: translateX(-100%); 
+  }
+ }
+
+
+ .supporthero h1 {
+  margin-left: 180px;
+  margin-bottom: 30px;
+ }
+
+ .quoteblock{
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+ align-items: center;
+margin-bottom: 100px;
+ }
+
+ .quoteblock > .quote > h1 {
+  color: grey;
+ }
+
+
+
+ .quoteblock .line{
+  width: 10px;
+  height: 150px;
+  background-color: rgb(109 2 64);
+  margin-right: 30px;
+ }
+
+
+ .gradient{
+  height: 30px;
+  background: rgb(62,89,216);
+background: linear-gradient(90deg, rgba(62,89,216,1) 0%, rgba(208,69,199,1) 47%, rgba(255,198,101,1) 100%);
+margin-top: 20px;
+margin-bottom: 20px;
+margin-top: 20px;
+ }
+
+ .video-embed > video{
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 80px;
+
+ }
+
+
+
+.spinner{
+
+  float:left;
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.outertriangle{
+  animation: rotatetriangle 3s infinite;
+  z-index: 1;
+}
+
+.innertext{
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 2;
+  margin-top: 15%;
+  position: absolute;
+}
+
+.innertext > p {
+  text-align: center;
+  color:white;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 40%;  
+  font-size: 2rem;
+
+}
+
+.innertext{
+  font-size: 1.5rem;
+}
+
+.wrappersupport{
+  padding-bottom: 200px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.intro > .image-container{
+  width: 80%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro p{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+nav .home-logo:hover{
+  border-bottom: none;
+}
+
+
+@keyframes rotatetriangle {
+  0%   {transform: rotate(0deg);}
+  25%  {transform: rotate(25deg);}
+  50%  {transform: rotate(50deg);}
+  100% {transform: rotate(0deg);}
+}
+
+
+
+.theteam {
+  margin-top: 60px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+
+
+
+.theteam > .card {
+  padding: 10px;
+  width: 45%;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+}
+
+
+.theteam > .card  > .profilepic > .imagediv1 {
+  background-image: url('../images/people/ada-nduka-oyom.jpg');
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+.theteam > .card  > .profilepic > .imagediv2 {
+  background-image: url('../images/people/chidinma-njoku.jpg');
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+.theteam > .card  > .profilepic > .imagediv3 {
+  background-image: url('../images/people/elizabeth-okaome.jpg');
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+.theteam > .card  > .profilepic > .imagediv4 {
+  background-image: url('../images/people/eniola-ipoola.png');
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+.theteam > .card  > .profilepic > .imagediv5 {
+  background-image: url('../images/people/esther-okafor.jpg');
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+.theteam > .card  > .profilepic > .imagediv6 {
+  background-image: url('../images/people/goziem-onugha.jpg');
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+.theteam > .card  > .profilepic > .imagediv7 {
+  background-image: url('../images/people/naomi-usman.jpg');
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+
+.theteam > .card  > .profilepic > .imagediv8 {
+  background-image: url('../images/people/oluchi-nwenyi.jpg');
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+.theteam > .card  > .profilepic > .imagediv9 {
+  background-image: url('../images/people/omotola-eunice-omotayo.png');
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+.theteam > .card  > .profilepic > .imagediv10 {
+  background-image: url('../images/people/temilola-kutelu.jpg');
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+.theteam > .card  > .profilepic > .imagediv11 {
+  background-image: url('../images/people/zainab-abubakar.jpg');
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+}
+
+
+
+
+
+
+.theteam > .card  > .profilepic{
+width: 80px;
+height: 80px;
+min-height: 10px;
+min-width: 10px;
+margin-left: 30px;
+border-radius: 50%;
+overflow: hidden;
+background-color: blue;
+
+outline: 4px solid rgb(229 43 0);
+outline-offset: 2px;
+}
+
+.theteam > .card  > .details{
+
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.theteam > .card > .details > h3{
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 26.875rem) {
+  nav, .hero,.theteam > .card,.theteam  {
+    display: block ;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .theteam > .card  > .profilepic{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .theteam > .card > .details{
+  margin-right: auto;
+  margin-top: 20px;
+  margin-left: auto;
+  }
+  nav img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav .menu, .card,.theteam, .theteam > .card {
+    
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  nav a{
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section p,  .buttonwrapper, button{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section .buttonwrapper{
+    position:initial
+  }
+}
